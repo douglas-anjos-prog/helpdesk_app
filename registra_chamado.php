@@ -17,7 +17,7 @@
 
 
     // Monta o texto do chamado
-    $texto = $titulo . '#' . $categoria . '#' . $descricao . PHP_EOL;
+    $texto = $_SESSION['id'] . '#' . $titulo . '#' . $categoria . '#' . $descricao . PHP_EOL;
 
     //Abre o arquivo para escrita
     $arquivo = fopen('arquivo.hd','a');
